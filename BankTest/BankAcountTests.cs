@@ -19,7 +19,7 @@ namespace BankTest
 
             // Assert
             double actual = account.Balance;
-            Assert.AreEqual(expected, account, "Débito não ocorreu corretamente.");
+            Assert.AreEqual(expected, actual, "Débito não ocorreu corretamente.");
         }
     }
 }
